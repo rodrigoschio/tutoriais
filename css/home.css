@@ -1,3 +1,23 @@
+article small {
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+	background-color: var(--bgTitulos);
+	border-bottom: 12px double var(--bgPagina);
+	padding: 2px 12px 6px 12px;
+	margin: -40px -12px 0px 0px;
+	color: var(--titulos);
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+h2 b {
+	font-family: "Indie Flower";
+	font-weight: 400;
+}
+
 main {
 	max-width: 1020px;
 	margin: auto;
@@ -26,9 +46,9 @@ main {
 		bottom: 0px;
 		margin: auto;
 		height: 4rem;
-		background-color: #d2d2d2;
-		color: #444444;
-		border: 1px solid #aaaaaa;
+		background-color: var(--bgTitulos);
+		color: var(--link);
+		border: 1px solid var(--bordaDestaque);
 		width: 2rem;
 		font-size: 3rem;
 		padding: 0px;
@@ -67,12 +87,12 @@ main {
 }
 
 .tutorial {
-	color: #444444;
-	border: 1px solid #aaaaaa;
+	color: var(--link);
+	border: 2px dashed var(--bordaDestaque);
 	display: inline-block;
 	padding: 8px;
 	font-size: 13px;
-	border-radius: 8px;
+	border-radius: 10px;
 	margin: 8px;
 	text-align: left;
 	font-weight: normal;
@@ -80,32 +100,41 @@ main {
 
 .tutorial button{
 	cursor: pointer;
-	padding: 8px 110px;
-	margin-top: 6px;
-	border: 1px solid #aaaaaa;
-	color: #444444;
-	background-color: #d2d2d2;
+	padding: 8px;
+	display: block;
+	width: 298px;
+	margin-top: 28px;
+	border: 1px solid var(--bordaDestaque);
+	color: var(--link);
+	background-color: var(--bgTitulos);
+	font-size: 16px;
+	border-radius: 8px;
 }
 
 .tutorial div {
 	background-image: url("../imagens/faixa.png");
 	background-size: 80px;
-	background-position: 196px -11px;
+	background-position: 216px -6px;
 	background-repeat: no-repeat;
-	background-color: #d2d2d2;
-	padding: 12px 0px 8px 0px;
+	background-color: var(--bgTitulos);
+	padding-top: 8px;
 	text-align: center;
 	font-family: Courier;
-	font-size: 20px;
 	font-weight: bold;
-	border-radius: 4px 4px 0px 0px;
-	border-bottom: 12px double #ffffff;
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: 12px double var(--bgPagina);
+	font-family: "Indie Flower";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
 }
 
 .tutorial small {
+	font-size: 15px;
+	color: var(--bold);
+	position: relative;
 	float: right;
-	font-weight: bold;
-	text-transform: uppercase;
+	text-align: right;
 }
 
 #menu {
